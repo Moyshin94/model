@@ -217,7 +217,7 @@ body {
 }
 .ul-service ::before li {
   content: "";
-  background-image: url(/img/рисунок1.png);
+  background-image: url(img/рисунок1.png);
   background-position: 0px 0px;
   width: 100px;
   height: 150px;
@@ -273,7 +273,7 @@ footer > p {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(/img/Layer_31.png);
+  background-image: url(img/Layer_31.png);
   background-position: 0px 0px;
 }
 
