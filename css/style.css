@@ -145,5 +145,13 @@ table {
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
-  background-color: var(--color-background);
+  background-color: var(--color-background1);
+}
+
+.tel {
+  margin-right: 30px;
+}
+.tel a {
+  text-align: right;
+  display: block;
 }
