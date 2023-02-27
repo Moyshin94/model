@@ -178,4 +178,23 @@ body {
   text-transform: uppercase;
 }
 /* MENU END */
-.img/* HEADER END */;
+.img {
+}
+/* HEADER END */
+
+/* SECTION SERVICE */
+.ul-service {
+  font-size: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ul-service > li {
+  display: inline-block;
+  font-size: 16px;
+  width: 300px;
+}
+.ul-service > li > a {
+  display: block;
+}
+/* SECTION SERVICE END*/
