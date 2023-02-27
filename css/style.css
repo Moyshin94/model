@@ -153,26 +153,39 @@ body {
   margin: 0 auto;
 }
 /* HEADER */
+.tel {
+  margin: 38px 0px 0px 0px;
+}
+
 .tel a {
-  margin-right: 30px;
+  margin: 0px 36px 0px 0px;
   text-align: right;
   display: block;
+  font-size: 20px;
+  color: var(--color-black1);
+  font-weight: bold;
+  line-height: 26px;
 }
 
 /* MENU */
+nav {
+  margin-bottom: 20px;
+}
+
 .menu {
   font-size: 0px;
   text-align: center;
   list-style: disc;
-  margin-bottom: 30px;
   position: relative;
+  margin: 10px 0px 0px 170px;
 }
 
 .menu > li {
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   list-style: circle;
-  margin-right: 30px;
+  margin: 0px 43px 0px 0px;
+  color: var(--color-black1);
 }
 .menu > li > a {
   display: block;
@@ -188,10 +201,12 @@ body {
 }
 .arm {
   position: absolute;
+  right: 149px;
 }
 .arrow {
   position: absolute;
   z-index: 10;
+  left: -120px;
 }
 .owle {
   position: absolute;
@@ -217,7 +232,7 @@ body {
 }
 .ul-service ::before li {
   content: "";
-  background-image: url(img/рисунок1.png);
+  background-image: url(/img/pic1.png);
   background-position: 0px 0px;
   width: 100px;
   height: 150px;
@@ -273,7 +288,7 @@ footer > p {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(img/Layer_31.png);
+  background-image: url(/img/Layer_31.png);
   background-position: 0px 0px;
 }
 
