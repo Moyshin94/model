@@ -183,7 +183,7 @@ body {
 /* img */
 .img {
   position: relative;
-  max-width: 1000px;
+  max-width: 1300px;
   height: 330px;
 }
 .arm {
@@ -273,7 +273,7 @@ footer > p {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(/img/Layer_31.png);
+  background-image: url(img/Layer_31.png);
   background-position: 0px 0px;
 }
 
