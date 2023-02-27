@@ -148,10 +148,34 @@ body {
   background-color: var(--color-background1);
 }
 
-.tel {
-  margin-right: 30px;
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
 }
+/* HEADER */
 .tel a {
+  margin-right: 30px;
   text-align: right;
   display: block;
 }
+
+/* MENU */
+.menu {
+  font-size: 0px;
+  text-align: center;
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+.menu > li {
+  font-size: 16px;
+  display: inline-block;
+  list-style: circle;
+  margin-right: 30px;
+}
+.menu > li > a {
+  display: block;
+  text-transform: uppercase;
+}
+/* MENU END */
+.img/* HEADER END */;
