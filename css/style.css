@@ -164,7 +164,8 @@ body {
   font-size: 0px;
   text-align: center;
   list-style: disc;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .menu > li {
@@ -177,9 +178,26 @@ body {
   display: block;
   text-transform: uppercase;
 }
+
 /* MENU END */
+/* img */
 .img {
+  position: relative;
+  max-width: 1000px;
+  height: 330px;
 }
+.arm {
+  position: absolute;
+}
+.arrow {
+  position: absolute;
+  z-index: 10;
+}
+.owle {
+  position: absolute;
+  z-index: 15;
+}
+/* img end */
 /* HEADER END */
 
 /* SECTION SERVICE */
