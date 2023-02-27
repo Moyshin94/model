@@ -198,3 +198,29 @@ body {
   display: block;
 }
 /* SECTION SERVICE END*/
+/* SECTION INFO */
+.clearfix::after {
+  content: "Бесплатная консультация Получить полезную информацию";
+  clear: both;
+  display: block;
+  height: 30px;
+  background-color: var(--color-blue2);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.news-content {
+  max-width: 1300px;
+}
+
+.news {
+  float: left;
+  width: 400px;
+}
+
+.qa {
+  float: left;
+  width: 700px;
+}
+
+/* SECTION INFO END */
