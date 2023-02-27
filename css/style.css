@@ -220,7 +220,6 @@ nav {
 /* SECTION SERVICE */
 .service {
   margin-top: 60px;
-  margin-bottom: 60px;
   height: 288px;
   background-color: var(--color-white1);
 }
@@ -251,19 +250,11 @@ nav {
 }
 
 /* SECTION SERVICE END*/
-/* SECTION INFO */
-.clearfix::after {
-  content: "Бесплатная консультация Получить полезную информацию";
-  clear: both;
-  display: block;
-  height: 30px;
-  background-color: var(--color-blue2);
-  max-width: 900px;
-  margin: 0 auto;
-}
 
+/* SECTION news */
 .news-content {
-  max-width: 1300px;
+  height: 616px;
+  background-color: red;
 }
 
 .news {
@@ -275,22 +266,28 @@ nav {
   float: left;
   width: 700px;
 }
-/* SECTION INFO END */
-
-/* FOOTER START */
-footer > p {
-  text-align: center;
-  margin-bottom: 30px;
+.clearfix::after {
+  content: "Бесплатная консультация Получить полезную информацию";
+  clear: both;
+  display: block;
+  height: 30px;
+  background-color: var(--color-blue2);
+  max-width: 900px;
+  margin: 0 auto;
 }
 
+/* SECTION NEWS END */
+
+/* FOOTER START */
 .soc {
   font-size: 0px;
+  margin: 24px 0px 0px 132px;
 }
 
 .soc > li {
   display: inline-block;
   font-size: 16px;
-  margin: 10px;
+  margin: 0px 6px 0px 0px;
 }
 
 .soc > li > a {
@@ -311,6 +308,16 @@ footer > p {
 
 .soc :nth-child(4) a {
   background-position: -90px 0px;
+}
+
+footer > .tel {
+  margin: 0px 6px 0px 0px;
+  fz
+}
+
+footer > p {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* FOOTER END */
