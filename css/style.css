@@ -149,12 +149,12 @@ body {
 }
 
 .wrapper {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 /* HEADER */
 .tel {
-  margin: 38px 0px 0px 0px;
+  margin: 42px 52px 0px 0px;
 }
 
 .tel a {
@@ -169,7 +169,7 @@ body {
 
 /* MENU */
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .menu {
@@ -201,21 +201,30 @@ nav {
 }
 .arm {
   position: absolute;
-  right: 149px;
+  right: -34px;
 }
 .arrow {
   position: absolute;
   z-index: 10;
-  left: -120px;
+  left: 65px;
 }
 .owle {
   position: absolute;
   z-index: 15;
+  left: 86px;
+  top: 29px;
 }
 /* img end */
 /* HEADER END */
 
 /* SECTION SERVICE */
+.service {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 288px;
+  background-color: var(--color-white1);
+}
+
 .ul-service {
   font-size: 0px;
   margin: 0 auto;
