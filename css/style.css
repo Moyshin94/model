@@ -259,12 +259,26 @@ nav {
 
 .news {
   float: left;
-  width: 400px;
+  width: 566px;
+  text-align: center;
+}
+.news > h2 {
+  background-color: green;
+  height: 57px;
+}
+.block-news {
+  height: 500px;
+  background-color: blue;
 }
 
 .qa {
   float: left;
   width: 700px;
+  text-align: left;
+}
+.qa > h2 {
+  background-color: orange;
+  height: 40px;
 }
 .clearfix::after {
   content: "Бесплатная консультация Получить полезную информацию";
@@ -311,13 +325,17 @@ nav {
 }
 
 footer > .tel {
-  margin: 0px 6px 0px 0px;
-  fz
+  margin: -30px 140px 0px 0px;
+}
+footer > .tel > a {
+  font-size: 14px;
+  margin: -7px 0px 0px 0px;
 }
 
 footer > p {
   text-align: center;
   margin-bottom: 30px;
+  vertical-align: bottom;
 }
 
 /* FOOTER END */
