@@ -215,6 +215,17 @@ body {
 .ul-service > li > a {
   display: block;
 }
+.ul-service ::before li {
+  content: "";
+  background-image: url(/img/рисунок1.png);
+  background-position: 0px 0px;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* SECTION SERVICE END*/
 /* SECTION INFO */
 .clearfix::after {
