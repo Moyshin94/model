@@ -154,7 +154,7 @@ body {
 }
 /* HEADER */
 .tel {
-  /* margin: 42px 52px 0px 0px; */
+  margin-top: 40px;
 }
 .tel > p {
   text-align: right;
@@ -209,14 +209,14 @@ nav {
   height: 310px;
   width: 429px;
   z-index: 15;
-  background-image: url(/img/arrow.png);
+  background-image: url(img/arrow.png);
   position: absolute;
 }
 
 .busines-arm {
   width: 1040px;
   height: 313px;
-  background-image: url(/img/busines-arm.png);
+  background-image: url(img/busines-arm.png);
   display: inline-block;
   margin-left: 226px;
 }
@@ -227,6 +227,7 @@ nav {
 .wrapper-service {
   height: 288px;
   width: 100%;
+  margin-top: 77px;
 }
 
 .service {
@@ -286,7 +287,7 @@ nav {
 .news-content {
   width: 100%;
   font-size: 0px;
-  outline: 4px solid red;
+  outline: 4px dashed red;
 }
 
 .news h2 {
@@ -299,7 +300,6 @@ nav {
 .news {
   display: inline-block;
   width: 40%;
-  height: 100%;
   text-align: center;
   font-size: 16px;
   margin: 0px;
@@ -308,11 +308,10 @@ nav {
 .news-content span {
   background-color: var(--color-blue1);
   color: var(--color-white1);
-
   text-align: left;
 }
 
-.block-news h3 {
+.block-news p {
   text-align: left;
   margin-left: 50%;
   margin-right: 10%;
@@ -349,14 +348,33 @@ nav {
   margin: 0% 16% 0% 16%;
   height: 50px;
   background-color: var(--color-blue4);
+  font-size: 0;
 }
 
+.plate div {
+  color: var(--color-white1);
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+.pl1 {
+  border-right: 3px solid red;
+  /* outline: 4px solid green; */
+  width: 50%;
+  height: 100%;
+}
+.pl2 {
+  /* border-right: 3px solid magenta; */
+  /* outline: 4px solid yellow; */
+  /* width: 50%; */
+  height: 100%;
+}
 /* SECTION NEWS END */
 
 /* FOOTER START */
 .soc {
   font-size: 0px;
-  margin: 24px 0px 0px 132px;
+  /* margin: 24px 0px 0px 132px; */
 }
 
 .soc > li {
@@ -386,11 +404,11 @@ nav {
 }
 
 footer > .tel {
-  margin: -30px 140px 0px 0px;
+  /* margin: -30px 140px 0px 0px; */
 }
 footer > .tel > a {
   font-size: 14px;
-  margin: -7px 0px 0px 0px;
+  /* margin: -7px 0px 0px 0px; */
 }
 
 footer > p {
