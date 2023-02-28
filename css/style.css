@@ -240,7 +240,6 @@ nav {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  outline: green 2px solid;
   height: 200px;
 }
 
@@ -249,12 +248,10 @@ nav {
   font-size: 16px;
   width: 300px;
   text-align: left;
-  outline: red 5px solid;
   margin-right: 130px;
 }
 .ul-service > li > a {
   display: inline-block;
-  outline: 2px solid blue;
   margin: 0px 0px 18px 0px;
 }
 .ul-service li::before {
@@ -264,22 +261,21 @@ nav {
   width: 67px;
   height: 129px;
   position: absolute;
-  top: 0px;
-  left: 358px;
-  outline: green 10px solid;
+  top: 32px;
+  left: 225px;
 }
 .ul-service :nth-child(2)::before {
-  background-image: url(/img/weight.png);
+  background-image: url(/img/femida.png);
   background-position: 0px 0px;
-
-  left: 600px;
+  left: 657px;
 }
 
 .ul-service :nth-child(3)::before {
-  background-image: url(/img/weight.png);
+  background-image: url(/img/notes.png);
   background-position: 0px 0px;
-
-  left: 900px;
+  left: 1086px;
+  height: 88px;
+  top: 58px;
 }
 /* SECTION SERVICE END*/
 
@@ -287,7 +283,6 @@ nav {
 .news-content {
   width: 100%;
   font-size: 0px;
-  outline: 4px dashed red;
 }
 
 .news h2 {
