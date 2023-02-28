@@ -209,14 +209,14 @@ nav {
   height: 310px;
   width: 429px;
   z-index: 15;
-  background-image: url(img/arrow.png);
+  background-image: url(/img/arrow.png);
   position: absolute;
 }
 
 .busines-arm {
   width: 1040px;
   height: 313px;
-  background-image: url(img/busines-arm.png);
+  background-image: url(/img/busines-arm.png);
   display: inline-block;
   margin-left: 226px;
 }
@@ -387,7 +387,7 @@ nav {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(img/svg-soc.png);
+  background-image: url(/img/svg-soc.png);
   background-position: 0px 0px;
 }
 
