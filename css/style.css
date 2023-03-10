@@ -209,14 +209,14 @@ nav {
   height: 310px;
   width: 429px;
   z-index: 15;
-  background-image: url(/img/arrow.png);
+  background-image: url(../img/arrow.png)
   position: absolute;
 }
 
 .busines-arm {
   width: 1040px;
   height: 313px;
-  background-image: url(/img/busines-arm.png);
+  background-image: url(..//mg/busines-arm.png);
   display: inline-block;
   margin-left: 226px;
 }
@@ -256,7 +256,7 @@ nav {
 }
 .ul-service li::before {
   content: "";
-  background-image: url(/img/weight.png);
+  background-image: url(../img/weight.png);
   background-position: 0px 0px;
   width: 67px;
   height: 129px;
@@ -265,13 +265,13 @@ nav {
   left: 225px;
 }
 .ul-service :nth-child(2)::before {
-  background-image: url(/img/femida.png);
+  background-image: url(../img/femida.png);
   background-position: 0px 0px;
   left: 657px;
 }
 
 .ul-service :nth-child(3)::before {
-  background-image: url(/img/notes.png);
+  background-image: url(../img/notes.png);
   background-position: 0px 0px;
   left: 1086px;
   height: 88px;
@@ -379,7 +379,7 @@ nav {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url(/img/svg-soc.png);
+  background-image: url(../img/svg-soc.png);
   background-position: 0px 0px;
 }
 
